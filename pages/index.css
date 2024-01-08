@@ -17,6 +17,8 @@ body{
 .body_logo{
     display: flex;
     background-color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
     
 }
 .body_buscador{
