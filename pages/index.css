@@ -16,12 +16,29 @@ body{
 }
 
 .body_logo{
+    width: 100%;
+    height: 12%;
     display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-size: xx-large;
-    
-    
+    font-size: 30px;
+    transform: scale(2, 3); 
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    .color-rojo{
+        color: rgb(221, 53, 53);
+    }
+    .color-azul {
+        color: #1f62eb;
+    }
+    .color-amari {
+        color: #e2cc00;
+    }
+    .color-verde {
+        color: #059c05;
+    }
 }
+
+
+
 .body_buscador{
     display: flex;
     width: 100%;
