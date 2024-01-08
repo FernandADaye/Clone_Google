@@ -1,5 +1,4 @@
 body{
-    background-color: aquamarine;
     width: 100vw;
     height:100vh;
     
@@ -16,14 +15,24 @@ body{
 
 .body_logo{
     display: flex;
-    background-color: blue;
     font-family: 'Roboto', sans-serif;
     font-size: xx-large;
+    
     
 }
 .body_buscador{
     display: flex;
-    background-color: rgb(162, 0, 255);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-control{
+border-radius: 30px;
+padding-left: 2rem;
+padding-right: 4rem;
+justify-content: center;
+margin: 1rem;
 }
 .body_app{
     display: flex;
