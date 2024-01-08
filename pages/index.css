@@ -11,6 +11,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
+
 }
 
 .body_logo{
@@ -36,5 +37,46 @@ margin: 1rem;
 }
 .body_app{
     display: flex;
-    background-color: rgb(255, 0, 0);
+    flex-direction: row;
 }
+.logo_1{
+    display: flex;
+    padding: 12px;
+    margin-left: 30px;
+    margin-right: 30px ;
+    background-color: rgb(199, 199, 199);
+    border-radius: 50px;
+    cursor: pointer;
+
+
+}
+.logo_2{
+    display: flex;
+    padding: 12px;
+margin-left: 30px;
+margin-right: 30px ;
+background-color: rgb(199, 199, 199);
+border-radius: 50px;
+cursor: pointer;
+
+}
+.logo_3{
+    display: flex;
+    padding: 12px;
+    margin-left: 30px;
+margin-right: 30px ;
+background-color: rgb(199, 199, 199);
+border-radius: 50px;
+cursor: pointer;
+
+}
+.logo_4{
+    display: flex;
+    padding: 12px;
+    margin-left: 30px;
+margin-right: 30px ;
+background-color: rgb(199, 199, 199);
+border-radius: 50px;
+cursor: pointer;
+
+}   
